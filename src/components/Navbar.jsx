@@ -1,28 +1,29 @@
 import React from "react";
+import { Link } from "gatsby";
 
 const Navbar = () => {
   return (
-    <nav class="bg-transparent">
-      <div class="container px-6 sm:pt-16 md:px-12 xl:px-0 max-w-7xl xl:mx-auto md:flex md:justify-between md:items-center">
-        <div class="flex items-center justify-between">
+    <nav className="bg-transparent">
+      <div className="container px-6 sm:pt-16 md:px-12 xl:px-0 max-w-7xl xl:mx-auto md:flex md:justify-between md:items-center">
+        <div className="flex items-center justify-between">
           <div>
             <a
-              class="text-2xl font-bold text-white lg:text-3xl hover:text-gray-700"
+              className="text-2xl font-bold text-white lg:text-3xl hover:text-gray-700"
               href="#"
             >
               vonnue
             </a>
           </div>
 
-          <div class="flex md:hidden">
+          <div className="flex md:hidden">
             <button
               type="button"
-              class="text-gray-500 hover:text-gray-600 focus:outline-none focus:text-gray-600"
+              className="text-gray-500 hover:text-gray-600 focus:outline-none focus:text-gray-600"
               aria-label="toggle menu"
             >
-              <svg viewBox="0 0 24 24" class="w-6 h-6 fill-current">
+              <svg viewBox="0 0 24 24" className="w-6 h-6 fill-current">
                 <path
-                  fill-rule="evenodd"
+                  fillRule="evenodd"
                   d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"
                 ></path>
               </svg>
@@ -30,32 +31,32 @@ const Navbar = () => {
           </div>
         </div>
 
-        <div class="items-center md:flex">
-          <div class="flex flex-col md:flex-row md:mx-6">
-            <a
-              class="my-1 text-sm font-medium text-gray-700  hover:text-indigo-500  md:mx-4 md:my-0"
-              href="#"
+        <div className="items-center md:flex">
+          <div className="flex flex-col md:flex-row md:mx-6">
+            <Link
+              className="my-1 text-sm font-medium text-white sm:text-xl sm:font-medium md:mx-4 md:my-0"
+              to="#"
             >
               Home
-            </a>
-            <a
-              class="my-1 text-sm font-medium text-gray-700  hover:text-indigo-500  md:mx-4 md:my-0"
-              href="#"
+            </Link>
+            <Link
+              className="my-1 text-sm font-medium text-white sm:text-xl sm:font-medium md:mx-4 md:my-0"
+              to="#"
             >
               Shop
-            </a>
-            <a
-              class="my-1 text-sm font-medium text-gray-700  hover:text-indigo-500  md:mx-4 md:my-0"
-              href="#"
+            </Link>
+            <Link
+              className="my-1 text-sm font-medium text-white sm:text-xl sm:font-medium md:mx-4 md:my-0"
+              to="#"
             >
               Contact
-            </a>
-            <a
-              class="my-1 text-sm font-medium text-gray-700  hover:text-indigo-500  md:mx-4 md:my-0"
-              href="#"
+            </Link>
+            <Link
+              className="my-1 text-sm font-medium text-white sm:text-xl sm:font-medium md:mx-4 md:my-0"
+              to="#"
             >
               About
-            </a>
+            </Link>
           </div>
         </div>
       </div>

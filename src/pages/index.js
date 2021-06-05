@@ -1,5 +1,12 @@
-import React from "react"
+import React from "react";
+import Hero from "../components/Hero.jsx";
 
-export default function Home() {
-  return <div>Hello world!</div>
-}
+const Home = () => {
+  return (
+    <div className="font-body">
+      <Hero />
+    </div>
+  );
+};
+
+export default Home;

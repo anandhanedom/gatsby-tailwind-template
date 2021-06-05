@@ -50,7 +50,7 @@ const Navbar = () => {
           <div className="flex flex-col md:flex-row md:mx-6">
             {navLinks.map(navLink => (
               <Link
-                className="transition duration-300 ease-linear my-1 text-sm font-medium text-white border-b-2 border-transparent hover:border-secondary sm:text-xl sm:font-medium md:mx-4 md:my-0"
+                className="transition duration-300 ease-linear my-1 text-sm font-medium text-white border-b-2 sm:border-transparent sm:hover:border-secondary sm:text-xl sm:font-medium md:mx-4 md:my-0"
                 to={navLink.endPoint}
               >
                 {navLink.title}

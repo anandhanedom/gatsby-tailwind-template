@@ -20,7 +20,7 @@ const Footer = () => {
             We want to hear about what you're building
           </h1>
         </div>
-        <button className="text-lg bg-secondary text-beta mt-10 py-4 px-8 rounded-2xl">
+        <button className="text-lg bg-secondary text-beta mt-10 py-4 px-8 rounded-lg">
           Contact Us
         </button>
         <div className="my-28 grid grid-flow-col auto-cols-auto text-white text-left text-2xl">
@@ -52,7 +52,9 @@ const Footer = () => {
           </div>
           <div className="grid grid-cols-2">
             {footerLinks.map(link => (
-              <Link to={link.endPoint}>{link.title}</Link>
+              <Link to={link.endPoint} className="hover:text-secondary">
+                {link.title}
+              </Link>
             ))}
           </div>
         </div>

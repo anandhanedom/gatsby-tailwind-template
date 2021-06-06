@@ -13,7 +13,6 @@ const Footer = () => {
         <button className="text-lg bg-secondary text-beta mt-10 py-4 px-8 rounded-2xl">
           Contact Us
         </button>
-
         <div className="my-28 grid grid-flow-col auto-cols-auto text-white text-left text-2xl">
           <div className="grid grid-flow-row space-y-10">
             <div>
@@ -42,7 +41,6 @@ const Footer = () => {
             </div>
           </div>
         </div>
-
         <div className="text-lg">
           &copy; Vonnue Innovations Pvt. Ltd. {new Date().getFullYear()}
         </div>

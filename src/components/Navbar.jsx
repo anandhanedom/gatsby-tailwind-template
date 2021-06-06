@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
+import Container from "./utils/Container";
 
 const navLinks = [
   {
@@ -19,7 +20,7 @@ const navLinks = [
 const Navbar = () => {
   return (
     <nav className="bg-transparent">
-      <div className="container px-6 sm:pt-16 md:px-12 xl:px-0 max-w-7xl xl:mx-auto md:flex md:justify-between md:items-center">
+      <Container className="sm:pt-16 md:flex md:justify-between md:items-center">
         <div className="flex items-center justify-between">
           <div>
             <Link
@@ -58,7 +59,7 @@ const Navbar = () => {
             ))}
           </div>
         </div>
-      </div>
+      </Container>
     </nav>
   );
 };

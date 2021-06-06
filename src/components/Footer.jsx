@@ -13,21 +13,22 @@ const footerLinks = [
 
 const Footer = () => {
   return (
-    <footer className="bg-gamma text-white py-16 lg:py-36">
+    <footer className="bg-secondary-300 text-white py-16 lg:py-36">
+      <div></div>
       <Container>
         <div className="max-w-6xl">
           <h1 className="text-4xl lg:text-6xl text-white leading-tight sm:w-2/3">
             We want to hear about what you're building
           </h1>
         </div>
-        <button className="text-lg bg-secondary text-beta mt-10 py-4 px-8 rounded-full">
+        <button className="text-lg bg-primary mt-10 py-4 px-8 rounded-sm">
           Contact Us
         </button>
-        <div className="my-28 grid grid-flow-col auto-cols-auto text-white text-left text-2xl">
+        <div className="my-28 grid grid-flow-col auto-cols-auto text-left text-2xl">
           <div className="grid grid-flow-row space-y-10">
             <div>
               <h3 className="font-bold mb-2">Singapore</h3>
-              <p className="font-thin text-lg">
+              <p className="font-thin text-lg text-secondary-500">
                 160 Robinson Road
                 <br />
                 #14-04 Singapore Business Federation Centre
@@ -35,7 +36,7 @@ const Footer = () => {
             </div>
             <div>
               <h3 className="font-bold mb-2">Kerala 1</h3>
-              <p className="font-thin text-lg">
+              <p className="font-thin text-lg text-secondary-500">
                 #Vismaya
                 <br />
                 Infopark Campus, Kakkanad - 682030
@@ -43,7 +44,7 @@ const Footer = () => {
             </div>
             <div>
               <h3 className="font-bold mb-2">Kerala 2</h3>
-              <p className="font-thin text-lg">
+              <p className="font-thin text-lg text-secondary-500">
                 #Vonnue
                 <br />
                 Keeranchira Tech Space - 673592
@@ -56,7 +57,7 @@ const Footer = () => {
                 <li className="mb-4">
                   <Link
                     to={link.endPoint}
-                    className="hover:text-secondary font-bold"
+                    className="hover:text-primary font-bold"
                   >
                     {link.title}
                   </Link>

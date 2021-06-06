@@ -11,20 +11,16 @@ const navLinks = [
     title: "About",
     endPoint: "/about",
   },
-  {
-    title: "Contact",
-    endPoint: "/contact",
-  },
 ];
 
 const Navbar = () => {
   return (
     <nav className="bg-transparent">
-      <Container className="sm:pt-16 md:flex md:justify-between md:items-center">
+      <Container className="sm:py-8 md:flex md:justify-between md:items-center">
         <div className="flex items-center justify-between">
           <div>
             <Link
-              className="text-2xl font-bold text-white lg:text-3xl"
+              className="text-2xl font-bold text-black lg:text-3xl"
               href="/"
             >
               vonnue
@@ -48,15 +44,21 @@ const Navbar = () => {
         </div>
 
         <div className="items-center md:flex">
-          <div className="flex flex-col md:flex-row md:mx-6">
+          <div className="flex flex-col md:flex-row md:mx-6 items-center">
             {navLinks.map(navLink => (
               <Link
-                className="transition duration-300 ease-linear my-1 text-sm font-medium text-white border-b-2 sm:border-transparent sm:hover:border-secondary sm:text-xl sm:font-medium md:mx-4 md:my-0"
+                className="transition duration-300 ease-linear my-1 text-sm font-medium text-black sm:text-xl sm:font-medium md:mx-4 md:my-0"
                 to={navLink.endPoint}
               >
                 {navLink.title}
               </Link>
             ))}
+            <Link
+              className="bg-primary py-4 px-8 rounded-sm transition duration-300 ease-linear my-1 text-sm font-medium text-white sm:text-xl sm:font-medium md:mx-4 md:my-0"
+              to="/contact"
+            >
+              Contact
+            </Link>
           </div>
         </div>
       </Container>

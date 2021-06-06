@@ -4,12 +4,14 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "#3098f3",
-        secondary: "#ffcc00",
-        tertiary: "#fe6571",
-        alpha: "#05051e",
-        beta: "#082c4e",
-        gamma: "#0c1014",
+        primary: "#0096D6",
+        secondary: {
+          100: "#a7a7a7",
+          200: "#101212",
+          300: "#0d0c10",
+          400: "#fafafa",
+          500: "#c1c1c1",
+        },
       },
       fontFamily: {
         body: ["DM Sans"],

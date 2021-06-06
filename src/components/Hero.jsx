@@ -4,14 +4,25 @@ import Container from "../components/utils/Container";
 
 const Hero = () => {
   return (
-    <div className="h-screen bg-primary flex flex-col">
+    <div className="h-screen flex flex-col">
       <Navbar />
       <Container className="flex items-center flex-grow">
-        <h1 className="text-4xl lg:text-6xl text-white leading-tight">
-          Create <span className="text-secondary animate-pulse">lightning</span>
-          <br />
-          fast software
-        </h1>
+        <div>
+          <h1 className="text-4xl lg:text-7xl text-black leading-tight font-extrabold">
+            Create <span className="text-primary animate-pulse">lightning</span>
+            <br />
+            fast software
+          </h1>
+          <p className="text-2xl my-8">
+            Product Development for startups, scaleups and enterprises
+          </p>
+          <button
+            className="transition delay-100 ease-in text-2xl border-primary text-primary hover:text-white px-10 py-5 hover:bg-primary rounded-sm"
+            style={{ border: "3px solid" }}
+          >
+            Watch Experience
+          </button>
+        </div>
       </Container>
     </div>
   );

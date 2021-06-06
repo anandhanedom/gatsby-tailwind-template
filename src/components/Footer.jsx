@@ -21,9 +21,12 @@ const Footer = () => {
             Find the right solution
           </h1>
         </div>
-        <button className="text-lg bg-primary mt-10 py-4 px-8 rounded-sm">
+        <Link
+          className="text-lg bg-primary mt-10 py-4 px-8 rounded-sm inline-block"
+          to="/contact"
+        >
           Contact Us
-        </button>
+        </Link>
         <div className="my-28 grid grid-flow-col auto-cols-auto text-left text-2xl">
           <div className="grid grid-flow-row space-y-10">
             <div>

@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="bg-gamma py-6 sm:py-16 md:py-12 lg:py-36 text-white">
       <Container>
         <div className="max-w-6xl">
-          <h1 className="sm:text-6xl w-2/3">
+          <h1 className="text-4xl lg:text-6xl text-white leading-tight sm:w-2/3">
             We want to hear about what you're building
           </h1>
         </div>

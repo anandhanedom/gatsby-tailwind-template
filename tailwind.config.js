@@ -12,6 +12,7 @@ module.exports = {
           400: "#fafafa",
           500: "#c1c1c1",
         },
+        tertiary: "#ad6edd",
       },
       fontFamily: {
         body: ["DM Sans"],

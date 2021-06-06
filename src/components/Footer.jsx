@@ -3,7 +3,7 @@ import Container from "../components/utils/Container";
 
 const Footer = () => {
   return (
-    <footer className="bg-gamma py-6 sm:py-16 md:py-12 lg:py-36 text-white">
+    <footer className="bg-gamma text-white py-16 lg:py-36">
       <Container>
         <div className="max-w-6xl">
           <h1 className="text-4xl lg:text-6xl text-white leading-tight sm:w-2/3">

@@ -1,9 +1,10 @@
 import React from "react";
 import Container from "../components/utils/Container";
+import Section from "./utils/Section";
 
 const WhoWeAre = () => {
   return (
-    <section className="text-alpha bg-white py-20 lg:py-40">
+    <Section className="text-alpha bg-white">
       <Container>
         <h2 className="max-w-xl text-4xl sm:text-5xl">
           We’re a team of humans with the strategy, tools, and talent to provide
@@ -11,7 +12,7 @@ const WhoWeAre = () => {
         </h2>
         <div></div>
       </Container>
-    </section>
+    </Section>
   );
 };
 

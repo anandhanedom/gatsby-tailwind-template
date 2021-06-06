@@ -4,8 +4,7 @@ import Container from "../components/utils/Container";
 
 const Hero = () => {
   return (
-    <div className="h-screen flex flex-col">
-      <Navbar />
+    <div className="flex flex-col" style={{ height: "80vh" }}>
       <Container className="flex items-center flex-grow">
         <div>
           <h1 className="text-4xl lg:text-7xl text-black leading-tight font-extrabold">

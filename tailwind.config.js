@@ -9,7 +9,7 @@ module.exports = {
         tertiary: "#fe6571",
         alpha: "#05051e",
         beta: "#082c4e",
-        gamma: "",
+        gamma: "#072c4e",
       },
       fontFamily: {
         body: ["DM Sans"],

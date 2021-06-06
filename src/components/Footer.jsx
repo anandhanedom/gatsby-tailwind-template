@@ -17,7 +17,7 @@ const Footer = () => {
       <div></div>
       <Container>
         <div className="max-w-6xl">
-          <h1 className="text-4xl lg:text-6xl text-white leading-tight sm:w-2/3">
+          <h1 className="text-4xl lg:text-5xl text-white leading-tight sm:w-2/3">
             We want to hear about what you're building
           </h1>
         </div>

@@ -7,7 +7,7 @@ const Hero = () => {
     <div className="h-screen bg-primary flex flex-col">
       <Navbar />
       <Container className="flex items-center flex-grow">
-        <h1 className="text-6xl text-white leading-tight">
+        <h1 className="text-4xl sm:text-4xl md:text-4xl lg:text-6xl xl:text-6xl text-white leading-tight">
           Create <span className="text-secondary animate-pulse">lightning</span>
           <br />
           fast software

@@ -1,5 +1,15 @@
 import React from "react";
+import { Link } from "gatsby";
 import Container from "../components/utils/Container";
+
+const footerLinks = [
+  { title: "Home", endPoint: "/" },
+  { title: "About", endPoint: "/about" },
+  { title: "Work", endPoint: "/work" },
+  { title: "Contact", endPoint: "/contact" },
+  { title: "Services", endPoint: "/services" },
+  { title: "Culture", endPoint: "/culture" },
+];
 
 const Footer = () => {
   return (
@@ -39,6 +49,11 @@ const Footer = () => {
                 Keeranchira Tech Space - 673592
               </p>
             </div>
+          </div>
+          <div className="grid grid-cols-2">
+            {footerLinks.map(link => (
+              <Link to={link.endPoint}>{link.title}</Link>
+            ))}
           </div>
         </div>
         <div className="text-lg">

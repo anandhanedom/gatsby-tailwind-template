@@ -51,7 +51,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="flex">
-            <ul className="sm:mr-32">
+            <ul>
               {footerLinks.map(link => (
                 <li className="mb-4">
                   <Link

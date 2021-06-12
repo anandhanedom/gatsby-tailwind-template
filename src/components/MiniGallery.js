@@ -30,14 +30,14 @@ const MiniGallery = () => {
               <StaticImage
                 alt="gallery"
                 className="w-full object-cover h-full object-center block"
-                src="https://dummyimage.com/501x301"
+                src="../assets/img/gallery/gallery1.jpg"
               />
             </div>
             <div className="md:p-2 p-1 w-full">
               <StaticImage
                 alt="gallery"
                 className="w-full h-full object-cover object-center block"
-                src="https://dummyimage.com/600x360"
+                src="../assets/img/gallery/10.jpg"
               />
             </div>
           </div>

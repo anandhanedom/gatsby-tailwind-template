@@ -3,6 +3,11 @@ module.exports = {
   darkMode: false,
   theme: {
     extend: {
+      colors: {
+        primary: {
+          100: "#0096D6",
+        },
+      },
       fontFamily: {
         body: ["Open Sans"],
       },

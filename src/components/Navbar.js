@@ -26,7 +26,7 @@ const NavbarBrand = () => {
 
 const Navbar = () => {
   return (
-    <nav className="bg-white shadow text-lg font-medium">
+    <nav className="bg-white shadow text-lg font-medium tracking-widest">
       <Container>
         <div className="flex flex-col md:flex-row md:justify-between md:items-center py-4">
           <div className="flex items-center justify-between">

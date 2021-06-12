@@ -75,7 +75,7 @@ const Navbar = () => {
           </div>
         </div>
       </Container>
-      <div className="py-2 md:flex md:justify-center border-t-2">
+      <div className="text-base py-2 md:flex md:justify-center border-t-2">
         <div
           className="rounded-sm mx-4 leading-5 md:my-0 hover:bg-gray-100 p-2 cursor-pointer transition-colors duration-300 hover:text-primary-100"
           to="/"

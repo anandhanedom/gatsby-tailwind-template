@@ -7,6 +7,11 @@ module.exports = {
         primary: {
           100: "#000080",
         },
+        ind: {
+          saffron: "#FF9933",
+          green: "#138808",
+          blue: "#000080",
+        },
       },
       fontFamily: {
         body: ["Open Sans"],

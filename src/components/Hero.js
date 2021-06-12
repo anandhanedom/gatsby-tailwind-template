@@ -1,18 +1,17 @@
 import React from "react";
-import backgroundImage from "../assets/img/alb_2081918001.jpg";
 import Container from "../utilities/Container";
+import { StaticImage } from "gatsby-plugin-image";
 
 const Hero = () => {
   return (
     <section className="relative bg-black">
-      <img
-        src={backgroundImage}
-        height="100%"
-        width="100%"
-        style={{ opacity: "0.6" }}
+      <StaticImage
+        src="../assets/img/alb_2081918001.jpg"
+        style={{ opacity: "0.6", width: "100%" }}
+        imgStyle={{ width: "100%" }}
       />
-      <div class="absolute top-2/4 bottom-2/4">
-        <Container className="sm:text-6xl font-bold text-white">
+      <div class="absolute top-2/4">
+        <Container className="text-base sm:text-xl md:text-4xl lg:text-5xl text-white font-semibold">
           <span style={{ color: "#FF9933" }}>India</span> matters to me,
           <br /> and I would like to matter to{" "}
           <span style={{ color: "#138808" }}>India</span>

@@ -11,7 +11,7 @@ const Contact = () => {
       <Section>
         <Container>
           <div className="flex flex-col text-center w-full mb-20">
-            <h1 className="text-2xl font-medium title-font mb-4 tracking-widest">
+            <h1 className="text-2xl font-medium mb-4 tracking-widest">
               OUR TEAM
             </h1>
             <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
@@ -29,7 +29,7 @@ const Contact = () => {
                   src="../assets/img/contact/indiagate.jpg"
                 />
                 <div className="flex-grow sm:pl-6 flex flex-col justify-start md:text-left tracking-wide text-left">
-                  <h2 className="title-font font-bold text-2xl mb-4">
+                  <h2 className="font-bold text-2xl mb-4">
                     New Delhi
                   </h2>
                   <p className="mb-4 text-base">
@@ -60,7 +60,7 @@ const Contact = () => {
                   src="../assets/img/contact/templetrivandrum.jpg"
                 />
                 <div className="flex-grow sm:pl-6 flex flex-col justify-start md:text-left tracking-wide text-left">
-                  <h2 className="title-font font-bold text-2xl mb-4">
+                  <h2 className="font-bold text-2xl mb-4">
                     Thiruvananthapuram
                   </h2>
                   <p className="mb-4 text-base">

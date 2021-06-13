@@ -3,7 +3,7 @@ import Container from "../utilities/Container";
 
 const Footer = () => {
   return (
-    <footer className="body-font pb-20 tracking-wide">
+    <footer className="body-font pb-20 tracking-wide text-gray-600">
       <Container className="flex items-center sm:flex-row flex-col">
         <a className="flex font-medium items-center md:justify-start justify-center">
           <span className="ml-3 text-sm">

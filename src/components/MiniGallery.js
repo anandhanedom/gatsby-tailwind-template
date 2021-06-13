@@ -8,10 +8,15 @@ const MiniGallery = () => {
     <Section>
       <Container className="flex flex-wrap">
         <div className="flex w-full mb-20 flex-wrap">
-          <h1 className="sm:text-3xl md:text-5xl font-extrabold tracking-wide title-font text-primary-100 lg:w-1/3 lg:mb-0 mb-4">
-            Trivandrum
-          </h1>
-          <p className="text-lg lg:pl-6 lg:w-2/3 mx-auto leading-relaxed">
+          <div className="font-extrabold tracking-wide lg:w-1/3 lg:mb-0 mb-4">
+            <h2 className="text-gray-900 text-sm md:text-lg mb-1">
+              My Constituency
+            </h2>
+            <h3 className="text-primary-100 text-3xl md:text-5xl">
+              Trivandrum
+            </h3>
+          </div>
+          <p className="text-lg lg:pl-6 lg:w-2/3 mx-auto leading-relaxed tracking-wide">
             Thiruvananthapuram is bound by the Arabian Sea in the west and Tamil
             Nadu in the east. Named after Anantha Padmanabha or Lord Vishnu, the
             city is home to many ancient temples. But the landmark is the Sree

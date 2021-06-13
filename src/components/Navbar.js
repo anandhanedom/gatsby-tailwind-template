@@ -67,7 +67,7 @@ const Navbar = () => {
             <div className="flex items-center py-2 -mx-1 md:mx-0">
               <Link
                 className="rounded-sm block px-8 py-4 mx-1 font-medium leading-5 text-center text-white transition-colors duration-200 transform bg-primary-100 md:mx-0 md:w-auto"
-                to="/"
+                to="/contact"
               >
                 Contact
               </Link>

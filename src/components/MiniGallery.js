@@ -9,9 +9,7 @@ const MiniGallery = () => {
       <Container className="flex flex-wrap">
         <div className="flex w-full mb-20 flex-wrap">
           <div className="font-extrabold tracking-wide lg:w-1/3 lg:mb-0 mb-4">
-            <h2 className="text-sm md:text-lg mb-1">
-              My Constituency
-            </h2>
+            <h2 className="text-sm md:text-lg mb-1">My Constituency</h2>
             <h3 className="text-primary-100 text-opacity-60 text-3xl md:text-5xl">
               Trivandrum
             </h3>
@@ -35,21 +33,21 @@ const MiniGallery = () => {
             <div className="md:p-2 p-1 w-1/2">
               <StaticImage
                 alt="gallery"
-                className="rounded-sm w-full object-cover h-full object-center block filter grayscale hover:grayscale-0 transition-all delay-700 ease-in-out"
+                className="rounded-sm w-full object-cover h-full object-center block filter grayscale hover:grayscale-0 transition-all delay-900 ease-in"
                 src="../assets/img/gallery/gallery5.jpg"
               />
             </div>
             <div className="md:p-2 p-1 w-1/2">
               <StaticImage
                 alt="gallery"
-                className="rounded-sm w-full object-cover h-full object-center block filter grayscale hover:grayscale-0 transition-all delay-700 ease-in-out"
+                className="rounded-sm w-full object-cover h-full object-center block filter grayscale hover:grayscale-0 transition-all delay-900 ease-in"
                 src="../assets/img/gallery/gallery1.jpg"
               />
             </div>
             <div className="md:p-2 p-1 w-full">
               <StaticImage
                 alt="gallery"
-                className="rounded-sm w-full h-full object-cover object-center block filter grayscale hover:grayscale-0 transition-all delay-700 ease-in-out"
+                className="rounded-sm w-full h-full object-cover object-center block filter grayscale hover:grayscale-0 transition-all delay-900 ease-in"
                 src="../assets/img/gallery/10.jpg"
               />
             </div>
@@ -58,21 +56,21 @@ const MiniGallery = () => {
             <div className="md:p-2 p-1 w-full">
               <StaticImage
                 alt="gallery"
-                className="rounded-sm w-full h-full object-cover object-center block filter grayscale hover:grayscale-0 transition-all delay-700 ease-in-out"
+                className="rounded-sm w-full h-full object-cover object-center block filter grayscale hover:grayscale-0 transition-all delay-900 ease-in"
                 src="../assets/img/gallery/gallery6.jpeg"
               />
             </div>
             <div className="md:p-2 p-1 w-1/2">
               <StaticImage
                 alt="gallery"
-                className="rounded-sm w-full object-cover h-full object-center block filter grayscale hover:grayscale-0 transition-all delay-700 ease-in-out"
+                className="rounded-sm w-full object-cover h-full object-center block filter grayscale hover:grayscale-0 transition-all delay-900 ease-in"
                 src="../assets/img/gallery/gallery3.jpg"
               />
             </div>
             <div className="md:p-2 p-1 w-1/2">
               <StaticImage
                 alt="gallery"
-                className="rounded-sm w-full object-cover h-full object-center block filter grayscale hover:grayscale-0 transition-all delay-700 ease-in-out"
+                className="rounded-sm w-full object-cover h-full object-center block filter grayscale hover:grayscale-0 transition-all delay-900 ease-in"
                 src="../assets/img/gallery/gallery2.jpg"
               />
             </div>

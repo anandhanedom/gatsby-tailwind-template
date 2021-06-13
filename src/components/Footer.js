@@ -3,17 +3,17 @@ import Container from "../utilities/Container";
 
 const Footer = () => {
   return (
-    <footer className="text-gray-600 body-font pb-20 tracking-wide">
+    <footer className="body-font pb-20 tracking-wide">
       <Container className="flex items-center sm:flex-row flex-col">
-        <a className="flex font-medium items-center md:justify-start justify-center text-gray-900">
-          <span className="ml-3 text-sm text-gray-500">
+        <a className="flex font-medium items-center md:justify-start justify-center">
+          <span className="ml-3 text-sm">
             Copyright &copy; {new Date().getFullYear()} shashitharoor.in
           </span>
         </a>
-        <p className="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
+        <p className="text-sm sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
           <a
             href="https://twitter.com/anandhanedom"
-            className="text-gray-600 ml-1"
+            className="ml-1"
             rel="noopener noreferrer"
             target="_blank"
           >

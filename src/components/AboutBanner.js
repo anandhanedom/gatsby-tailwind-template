@@ -8,12 +8,12 @@ const AboutBanner = () => {
       <Container>
         <div className="flex w-full mb-20 flex-wrap">
           <div className="font-extrabold tracking-wide lg:w-1/3 lg:mb-0 mb-4">
-            <h2 className="text-gray-800 text-sm md:text-lg mb-1">About</h2>
+            <h2 className="text-sm md:text-lg mb-1">About</h2>
             <h3 className="text-primary-100 text-opacity-60 text-3xl md:text-5xl">
               Dr. Shashi Tharoor
             </h3>
           </div>
-          <p className="text-lg lg:pl-6 lg:w-2/3 mx-auto leading-relaxed tracking-wide">
+          <p className="text-lg lg:pl-6 lg:w-2/3 mx-auto leading-relaxed tracking-wide md:tracking-wider">
             An author, politician, and former international civil servant,
             Shashi Tharoor straddles several worlds of experience. Currently a
             third-term Lok Sabha MP representing the Thiruvananthapuram

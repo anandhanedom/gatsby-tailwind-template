@@ -6,7 +6,7 @@ import Container from "../utilities/Container";
 const NavbarBrand = () => {
   return (
     <Link
-      className="flex items-center text-2xl text-gray-800 lg:text-3xl hover:text-gray-700"
+      className="flex items-center text-2xl lg:text-3xl hover:text-primary-100 transition-colors ease-in-out duration-300"
       to="/"
     >
       <StaticImage
@@ -26,7 +26,7 @@ const NavbarBrand = () => {
 
 const Navbar = () => {
   return (
-    <nav className="bg-white shadow text-lg font-medium tracking-widest">
+    <nav className="bg-white shadow text-lg font-medium tracking-widest text-gray-900">
       <Container>
         <div className="flex flex-col md:flex-row md:justify-between md:items-center py-4">
           <div className="flex items-center justify-between">

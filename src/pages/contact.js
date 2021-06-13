@@ -55,7 +55,7 @@ const Contact = () => {
               <div className="h-full flex sm:flex-row flex-col items-stretch sm:justify-start justify-center text-center sm:text-left">
                 <StaticImage
                   alt="team"
-                  className="flex-shrink-0 rounded-lg w-48 h-64 object-cover object-center sm:mb-0 mb-4 grayscale hover:grayscale-0 transition-all delay-700 ease-in-out"
+                  className="flex-shrink-0 rounded-lg w-48 h-64 object-cover object-center sm:mb-0 mb-4"
                   src="../assets/img/contact/templetrivandrum.jpg"
                 />
                 <div className="flex-grow sm:pl-6 flex flex-col justify-start md:text-left">

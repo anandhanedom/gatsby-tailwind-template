@@ -11,7 +11,7 @@ const Hero = () => {
         imgStyle={{ width: "100%" }}
       />
       <div class="absolute top-2/4">
-        <Container className="text-base sm:text-xl md:text-4xl lg:text-5xl text-white font-semibold tracking-wide">
+        <Container className="text-base sm:text-xl md:text-4xl lg:text-6xl text-white font-semibold tracking-wide">
           <span className="text-ind-saffron">India</span> matters to me,
           <br /> and I would like to matter to{" "}
           <span className="text-ind-green">India</span>

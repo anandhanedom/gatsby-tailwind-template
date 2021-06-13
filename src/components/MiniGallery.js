@@ -8,13 +8,21 @@ const MiniGallery = () => {
     <Section>
       <Container className="flex flex-wrap">
         <div className="flex w-full mb-20 flex-wrap">
-          <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900 lg:w-1/3 lg:mb-0 mb-4">
-            Master Cleanse Reliac Heirloom
+          <h1 className="sm:text-3xl md:text-5xl font-extrabold tracking-wide title-font text-primary-100 lg:w-1/3 lg:mb-0 mb-4">
+            Trivandrum
           </h1>
-          <p className="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base">
-            Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
-            gentrify, subway tile poke farm-to-table. Franzen you probably
-            haven't heard of them man bun deep jianbing selfies heirloom.
+          <p className="text-lg lg:pl-6 lg:w-2/3 mx-auto leading-relaxed">
+            Thiruvananthapuram is bound by the Arabian Sea in the west and Tamil
+            Nadu in the east. Named after Anantha Padmanabha or Lord Vishnu, the
+            city is home to many ancient temples. But the landmark is the Sree
+            Padmanabha Swamy Temple around which the city has been built on
+            seven low hills. The wooded highlands of the Western Ghats in the
+            eastern and northeastern borders give Thiruvananthapuram some of the
+            most enchanting picnic spots. A long shoreline with internationally
+            renowned beaches, historic monuments, backwater stretches and a rich
+            cultural heritage make this district a much sought-after tourist
+            destination. Clean and green, Thiruvananthapuram, the capital of
+            Kerala is one of the most beautiful cities in the country.
           </p>
         </div>
         <div className="flex flex-wrap md:-m-2 -m-1">

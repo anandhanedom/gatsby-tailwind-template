@@ -22,21 +22,21 @@ const MiniGallery = () => {
             <div className="md:p-2 p-1 w-1/2">
               <StaticImage
                 alt="gallery"
-                className="rounded-sm w-full object-cover h-full object-center block"
+                className="rounded-sm w-full object-cover h-full object-center block filter grayscale hover:grayscale-0 transition-all delay-700 ease-in-out"
                 src="../assets/img/gallery/gallery5.jpg"
               />
             </div>
             <div className="md:p-2 p-1 w-1/2">
               <StaticImage
                 alt="gallery"
-                className="rounded-sm w-full object-cover h-full object-center block"
+                className="rounded-sm w-full object-cover h-full object-center block filter grayscale hover:grayscale-0 transition-all delay-700 ease-in-out"
                 src="../assets/img/gallery/gallery1.jpg"
               />
             </div>
             <div className="md:p-2 p-1 w-full">
               <StaticImage
                 alt="gallery"
-                className="rounded-sm w-full h-full object-cover object-center block"
+                className="rounded-sm w-full h-full object-cover object-center block filter grayscale hover:grayscale-0 transition-all delay-700 ease-in-out"
                 src="../assets/img/gallery/10.jpg"
               />
             </div>
@@ -45,21 +45,21 @@ const MiniGallery = () => {
             <div className="md:p-2 p-1 w-full">
               <StaticImage
                 alt="gallery"
-                className="rounded-sm w-full h-full object-cover object-center block"
+                className="rounded-sm w-full h-full object-cover object-center block filter grayscale hover:grayscale-0 transition-all delay-700 ease-in-out"
                 src="../assets/img/gallery/gallery6.jpeg"
               />
             </div>
             <div className="md:p-2 p-1 w-1/2">
               <StaticImage
                 alt="gallery"
-                className="rounded-sm w-full object-cover h-full object-center block"
+                className="rounded-sm w-full object-cover h-full object-center block filter grayscale hover:grayscale-0 transition-all delay-700 ease-in-out"
                 src="../assets/img/gallery/gallery3.jpg"
               />
             </div>
             <div className="md:p-2 p-1 w-1/2">
               <StaticImage
                 alt="gallery"
-                className="rounded-sm w-full object-cover h-full object-center block"
+                className="rounded-sm w-full object-cover h-full object-center block filter grayscale hover:grayscale-0 transition-all delay-700 ease-in-out"
                 src="../assets/img/gallery/gallery2.jpg"
               />
             </div>

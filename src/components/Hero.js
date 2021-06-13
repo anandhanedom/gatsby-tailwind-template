@@ -12,9 +12,9 @@ const Hero = () => {
       />
       <div class="absolute top-2/4">
         <Container className="text-base sm:text-xl md:text-4xl lg:text-5xl text-white font-semibold tracking-wide">
-          <span style={{ color: "#FF9933" }}>India</span> matters to me,
+          <span className="text-ind-saffron">India</span> matters to me,
           <br /> and I would like to matter to{" "}
-          <span style={{ color: "#138808" }}>India</span>
+          <span className="text-ind-green">India</span>
         </Container>
       </div>
     </section>

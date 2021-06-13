@@ -10,7 +10,6 @@ module.exports = {
         ind: {
           saffron: "#FF9933",
           green: "#138808",
-          blue: "#000080",
         },
       },
       fontFamily: {
@@ -19,7 +18,9 @@ module.exports = {
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      grayscale: ["hover"],
+    },
   },
   plugins: [],
 };

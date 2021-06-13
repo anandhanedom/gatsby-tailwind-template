@@ -4,22 +4,14 @@ import Container from "../utilities/Container";
 import Section from "../utilities/Section";
 import { StaticImage } from "gatsby-plugin-image";
 import ContactForm from "../components/ContactForm";
+import PageTitle from "../components/PageTitle";
 
 const Contact = () => {
   return (
     <Layout>
       <Section>
         <Container>
-          <div className="flex flex-col text-center w-full mb-20">
-            <h1 className="text-2xl font-medium mb-4 tracking-widest">
-              OUR TEAM
-            </h1>
-            <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-              Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
-              gentrify, subway tile poke farm-to-table. Franzen you probably
-              haven't heard of them.
-            </p>
-          </div>
+          <PageTitle title="Contact" />
           <div className="flex flex-wrap">
             <div className="p-4 lg:w-1/2">
               <div className="h-full flex sm:flex-row flex-col items-stretch sm:justify-start justify-center text-center sm:text-left">

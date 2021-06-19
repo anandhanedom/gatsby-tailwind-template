@@ -9,6 +9,7 @@ const Hero = () => {
         src="../assets/img/alb_2081918001.jpg"
         style={{ opacity: "0.6", width: "100%" }}
         imgStyle={{ width: "100%" }}
+        alt="Dr Shashi Tharoor"
       />
       <div className="absolute top-2/4">
         <Container className="text-base sm:text-xl md:text-4xl lg:text-6xl text-white font-semibold tracking-wide">

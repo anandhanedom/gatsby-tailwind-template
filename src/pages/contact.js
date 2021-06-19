@@ -4,22 +4,16 @@ import Container from "../utilities/Container";
 import Section from "../utilities/Section";
 import { StaticImage } from "gatsby-plugin-image";
 import ContactForm from "../components/ContactForm";
+import PageTitle from "../components/PageTitle";
+import Head from "../components/Head";
 
 const Contact = () => {
   return (
     <Layout>
+      <Head title="Contact Us | Dr. Shashi Tharoor" />
       <Section>
         <Container>
-          <div className="flex flex-col text-center w-full mb-20">
-            <h1 className="text-2xl font-medium mb-4 tracking-widest">
-              OUR TEAM
-            </h1>
-            <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-              Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
-              gentrify, subway tile poke farm-to-table. Franzen you probably
-              haven't heard of them.
-            </p>
-          </div>
+          <PageTitle title="Contact" />
           <div className="flex flex-wrap">
             <div className="p-4 lg:w-1/2">
               <div className="h-full flex sm:flex-row flex-col items-stretch sm:justify-start justify-center text-center sm:text-left">
@@ -30,7 +24,7 @@ const Contact = () => {
                 />
                 <div className="flex-grow sm:pl-6 flex flex-col justify-start md:text-left tracking-wide text-left">
                   <h2 className="font-bold text-2xl mb-1">New Delhi</h2>
-                  <div class="h-1 w-20 bg-primary-100 rounded mb-4"></div>
+                  <div Name="h-1 w-20 bg-primary-100 rounded mb-4"></div>
                   <p className="mb-4 text-base">
                     97, Lodhi Estate, New Delhi - 110003 <br />
                     Tel : +91 11 2464 4035 / 2464 4383

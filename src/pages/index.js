@@ -4,6 +4,7 @@ import Hero from "../components/Hero";
 import MiniGallery from "../components/MiniGallery";
 import AboutBanner from "../components/AboutBanner";
 import Head from "../components/Head";
+import SocialMediaUpdates from "../components/SocialMediaUpdates";
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
       <Hero />
       <AboutBanner />
       <MiniGallery />
+      <SocialMediaUpdates />
     </Layout>
   );
 };

@@ -5,10 +5,12 @@ import Section from "../utilities/Section";
 import { StaticImage } from "gatsby-plugin-image";
 import ContactForm from "../components/ContactForm";
 import PageTitle from "../components/PageTitle";
+import Head from "../components/Head";
 
 const Contact = () => {
   return (
     <Layout>
+      <Head title="Contact Us | Dr. Shashi Tharoor" />
       <Section>
         <Container>
           <PageTitle title="Contact" />
@@ -22,7 +24,7 @@ const Contact = () => {
                 />
                 <div className="flex-grow sm:pl-6 flex flex-col justify-start md:text-left tracking-wide text-left">
                   <h2 className="font-bold text-2xl mb-1">New Delhi</h2>
-                  <div class="h-1 w-20 bg-primary-100 rounded mb-4"></div>
+                  <div class="h-1 w-20 bg-primary-100 bg-opacity-70 rounded mb-4"></div>
                   <p className="mb-4 text-base">
                     97, Lodhi Estate, New Delhi - 110003 <br />
                     Tel : +91 11 2464 4035 / 2464 4383
@@ -54,7 +56,10 @@ const Contact = () => {
                   <h2 className="font-bold text-2xl mb-1">
                     Thiruvananthapuram
                   </h2>
-                  <div class="h-1 w-20 bg-primary-100 rounded mb-4"></div>
+                  <div
+                    class="h-1 w-20 bg-primary-100 bg-opacity-70
+                   rounded mb-4"
+                  ></div>
                   <p className="mb-4 text-base">
                     Office of Dr. Shashi Tharoor,
                     <br />

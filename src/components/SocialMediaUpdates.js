@@ -4,7 +4,7 @@ import Section from "../utilities/Section";
 const SocialMediaUpdates = () => {
   return (
     <Section>
-      <div className="flex lg:px-6 justify-around">
+      <div className="flex lg:px-6 justify-around  social-media-updates">
         {/* <div
           dangerouslySetInnerHTML={{
             __html: `<iframe
@@ -25,8 +25,19 @@ const SocialMediaUpdates = () => {
           data-height="500"
           href="https://twitter.com/ShashiTharoor?ref_src=twsrc%5Etfw"
         >
-          Tweets by ShashiTharoor
+          Tweets by Shashi Tharoor
         </a>
+        <iframe
+          title="Facebook updates"
+          src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FShashiTharoor&tabs=timeline&width=340&height=500&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=false&appId"
+          width="340"
+          height="500"
+          style={{ border: "none", overflow: "hidden" }}
+          scrolling="no"
+          frameBorder="0"
+          allowfullscreen="true"
+          allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+        />
       </div>
     </Section>
   );

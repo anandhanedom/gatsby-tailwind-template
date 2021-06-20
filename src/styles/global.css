@@ -7,3 +7,7 @@
 html {
   scroll-behavior: smooth;
 }
+
+#twitter-widget-0 {
+  border: solid 1px #e0e0e0 !important;
+}

@@ -5,7 +5,7 @@ module.exports = {
     extend: {
       colors: {
         primary: {
-          100: "#0096D6",
+          100: "#337ab7",
         },
         ind: {
           saffron: "#FF9933",

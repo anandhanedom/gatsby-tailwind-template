@@ -11,9 +11,9 @@ const Contact = () => {
   return (
     <Layout>
       <Head title="Contact Us | Dr. Shashi Tharoor" />
+      <PageTitle title="Contact" />
       <Section>
         <Container>
-          <PageTitle title="Contact" />
           <div className="flex flex-wrap">
             <div className="p-4 lg:w-1/2">
               <div className="h-full flex sm:flex-row flex-col items-stretch sm:justify-start justify-center text-center sm:text-left">

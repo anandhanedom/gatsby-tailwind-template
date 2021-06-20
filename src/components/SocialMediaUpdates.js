@@ -4,7 +4,7 @@ import Container from "../utilities/Container";
 
 const SocialMediaUpdates = () => {
   return (
-    <Section>
+    <Section className="bg-gray-300">
       <Container>
         <div className="font-extrabold tracking-wide mb-20 text-center mx-auto">
           <h2 className="text-sm md:text-lg mb-1 uppercase">Connect</h2>

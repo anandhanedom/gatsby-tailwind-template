@@ -6,7 +6,7 @@ const SocialMediaUpdates = () => {
   return (
     <Section>
       <Container>
-        <div className="font-extrabold tracking-wide lg:w-1/3 mb-20 text-center mx-auto">
+        <div className="font-extrabold tracking-wide mb-20 text-center mx-auto">
           <h2 className="text-sm md:text-lg mb-1 uppercase">Connect</h2>
           <h3 className="text-primary-100 text-3xl md:text-5xl">
             Social Media Updates

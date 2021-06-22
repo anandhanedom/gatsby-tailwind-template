@@ -9,7 +9,7 @@ const AboutBanner = () => {
         <div className="flex w-full mb-20 flex-wrap">
           <div className="font-extrabold tracking-wide lg:w-1/3 lg:mb-0 mb-4">
             <h2 className="text-sm md:text-lg mb-1 uppercase">About</h2>
-            <h3 className="text-primary-100 text-3xl md:text-5xl">
+            <h3 className="text-primary-100 text-opacity-80 text-3xl md:text-5xl">
               Dr. Shashi Tharoor
             </h3>
           </div>

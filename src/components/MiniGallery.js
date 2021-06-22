@@ -12,18 +12,19 @@ const MiniGallery = () => {
             <h2 className="text-sm md:text-lg mb-1 uppercase">
               My Constituency
             </h2>
-            <h3 className="text-primary-100 text-3xl md:text-5xl">
+            <h3 className="text-primary-100 text-opacity-80 text-3xl md:text-5xl">
               Trivandrum
             </h3>
           </div>
           <p className="text-lg lg:pl-6 lg:w-2/3 mx-auto leading-relaxed tracking-wide">
-            Thiruvananthapuram is bound by the Arabian Sea in the west and Tamil
-            Nadu in the east. Named after Anantha Padmanabha or Lord Vishnu, the
-            city is home to many ancient temples. But the landmark is the Sree
-            Padmanabha Swamy Temple around which the city has been built on
-            seven low hills. The wooded highlands of the Western Ghats in the
-            eastern and northeastern borders give Thiruvananthapuram some of the
-            most enchanting picnic spots. A long shoreline with internationally
+            I am honored to serve the people of Thiruvananthapuram, who are
+            bound by the Arabian Sea in the west and Tamil Nadu in the east.
+            Named after Anantha Padmanabha or Lord Vishnu, the city is home to
+            many ancient temples. But the landmark is the Sree Padmanabha Swamy
+            Temple around which the city has been built on seven low hills. The
+            wooded highlands of the Western Ghats in the eastern and
+            northeastern borders give Thiruvananthapuram some of the most
+            enchanting picnic spots. A long shoreline with internationally
             renowned beaches, historic monuments, backwater stretches and a rich
             cultural heritage make this district a much sought-after tourist
             destination. Clean and green, Thiruvananthapuram, the capital of

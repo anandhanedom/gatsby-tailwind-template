@@ -11,9 +11,9 @@ const Contact = () => {
   return (
     <Layout>
       <Head title="Contact Us | Dr. Shashi Tharoor" />
+      <PageTitle title="Contact" />
       <Section>
         <Container>
-          <PageTitle title="Contact" />
           <div className="flex flex-wrap">
             <div className="p-4 lg:w-1/2">
               <div className="h-full flex sm:flex-row flex-col items-stretch sm:justify-start justify-center text-center sm:text-left">
@@ -24,7 +24,7 @@ const Contact = () => {
                 />
                 <div className="flex-grow sm:pl-6 flex flex-col justify-start md:text-left tracking-wide text-left">
                   <h2 className="font-bold text-2xl mb-1">New Delhi</h2>
-                  <div Name="h-1 w-20 bg-primary-100 rounded mb-4"></div>
+                  <div className="h-1 w-20 bg-primary-100 rounded mb-4"></div>
                   <p className="mb-4 text-base">
                     97, Lodhi Estate, New Delhi - 110003 <br />
                     Tel : +91 11 2464 4035 / 2464 4383

@@ -12,12 +12,12 @@ const MiniGallery = () => {
             <h2 className="text-sm md:text-lg mb-1 uppercase">
               My Constituency
             </h2>
-            <h3 className="text-primary-100 text-opacity-60 text-3xl md:text-5xl">
+            <h3 className="text-primary-100 text-opacity-80 text-3xl md:text-5xl">
               Trivandrum
             </h3>
           </div>
           <p className="text-lg lg:pl-6 lg:w-2/3 mx-auto leading-relaxed tracking-wide">
-            I am honored to serve the people of Thiruvananthapuram, which is
+            I am honored to serve the people of Thiruvananthapuram, who are
             bound by the Arabian Sea in the west and Tamil Nadu in the east.
             Named after Anantha Padmanabha or Lord Vishnu, the city is home to
             many ancient temples. But the landmark is the Sree Padmanabha Swamy
